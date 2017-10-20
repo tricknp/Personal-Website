@@ -87,7 +87,7 @@ a{
   display: block;
   height: 2px;
   margin: auto;
-  transition: width .5s ease, background-color 1s ease;
+  transition: width .4s ease, background-color .4s ease;
   width: 0px;
 }
 
