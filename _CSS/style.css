@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-body{
+body, html{
   font: 17px Montserrat, sans-serif;
   line-height: 2;
   color: #FFFFFF;
@@ -87,7 +87,7 @@ a{
   display: block;
   height: 2px;
   margin: auto;
-  transition: width .4s ease, background-color .4s ease;
+  transition: width .5s ease, background-color .5s ease;
   width: 0px;
 }
 
