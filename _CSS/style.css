@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body, html{
-  font: 17px Montserrat, sans-serif;
+	font: 17px Montserrat, sans-serif;
   line-height: 2;
   color: #FFFFFF;
   letter-spacing: 1px;
@@ -88,6 +88,7 @@ a{
   height: 2px;
   margin: auto;
   transition: width .5s ease, background-color .5s ease;
+  width: 0px;
 }
 
 .menu li a:hover:after{
@@ -256,9 +257,7 @@ a{
 
 .social-2 a:hover{
   /*color: #536273;*/
-  font-size: 25px;
-  color: #cccccc;
-  transition-duration: .2s;
+  color: #ccc;
 }
 
 .textFooter{
@@ -280,4 +279,3 @@ a{
 	color: #536273;
 	transition-duration: .4s;
 }
-
