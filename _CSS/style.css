@@ -142,6 +142,7 @@ a{
   border-radius: 50%;
   width: 150px; 
   height:150px;
+  position: relative;
 }
 
 .info{
@@ -279,3 +280,4 @@ a{
 	color: #536273;
 	transition-duration: .4s;
 }
+
