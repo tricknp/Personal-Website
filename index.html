@@ -3,7 +3,7 @@
 <head>
 	<title>Patrick Porto</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="src/_styles/style.css">
+	<link rel="stylesheet" type="text/css" href="src/styles/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Patrick Porto">
 	<meta name="reply-to" content="nporto.patrick@gmail.com">
@@ -11,8 +11,8 @@
 	<meta name="keywords" content="code, portifolio, site, programmer">
 	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<link rel="icon" href="assets/_images/title_icon.png" type="image/x-icon" />
-	<link rel="shortcut icon" href="assets/_images/title_icon.png" type="image/x-icon" />
+	<link rel="icon" href="assets/images/title_icon.png" type="image/x-icon" />
+	<link rel="shortcut icon" href="assets/images/title_icon.png" type="image/x-icon" />
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
@@ -33,11 +33,11 @@
 
 	<section class="container" id="home">
 		<div class="info">
-  			<img src="assets/_images/home.png" class="avatar">
+  			<img src="assets/images/home.png" class="avatar">
   			<h2 class="name">Patrick Porto</h2>
   			<h4 class="desc">Programmer, Open source enthusiast & Technology addict</h4>
   		</div>
-			<a href="#about"><i class="material-icons arrow" style="font-size:25px; color:#fff">arrow_downward</i></a>
+			<a href="#about"><i class="material-icons arrow" id="arrow-1" style="font-size:25px; color:#fff">arrow_downward</i></a>
 		<aside class="right">
 			<div class="social-icons">
         	<!--	<ul>
@@ -86,8 +86,8 @@
 				<p>Desde pequeno sou apaixonado em tecnologia, por games principalmente. Isso me motivou a escolher este curso.</p>
 				<p>Sou um cara bem curioso e competitivo, gosto muito de aprender coisas novas e desafiadoras. </p>
 			</h3>
-				<a href="#contact "><i class="material-icons arrow down" style="font-size:25px; color:#fff">arrow_downward</i></a>
 		</div>	
+		<a href="#contact "><i class="material-icons arrow down" id="arrow-2" style="font-size:25px; color:#fff">arrow_downward</i></a>
 			<!--<a href="#home"><i class="material-icons arrowup" style="font-size:25px; color:#fff">arrow_upward</i></a> -->
 	</section>
 
@@ -97,40 +97,42 @@
 			<h1>Vamos conversar</h1>
 			<p>Sinta-se à vontade para entrar em contato comigo.</p>
 			<p>
-				<a href="mailto:nporto.patrick@gmail.com"> <img src="assets/_images/mail.svg"> <b> nporto.patrick@gmail.com </b></a>
+				<a href="mailto:nporto.patrick@gmail.com"> <img src="assets/images/mail.svg"> <b> nporto.patrick@gmail.com </b></a>
 			</p>
 		</div>
+
+		<footer class="rodape">
+			<div class="social-2">
+				<ul>
+					<li>
+						<a href="https://www.facebook.com/patrick.nporto1" target="_blank" class="btn-fb"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a>
+					</li>
+					<li>
+						<a href="https://twitter.com/tricknp" target="_blank" class="btn-tt"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/patrick-porto-225897145/" target="_blank" class="btn-linkedin"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
+					</li>
+						<a href="https://plus.google.com/u/1/114964969370812749527" target="_blank" class="btn-google"><i class="fa fa-google-plus-square fa-lg" aria-hidden="true"></i></a>
+					<li>
+						<a href="https://github.com/tricknp" target="_blank" class="btn-github"><i class="fa fa-github-square fa-lg" aria-hidden="true"></i></a>
+					</li>
+					<li>
+						<a href="http://steamcommunity.com/id/tricknp" target="_blank" class="btn-steam"><i class="fa fa-steam-square fa-lg" aria-hidden="true"></i></a>
+					</li>
+				</ul>
+			</div>
+			<div class="textFooter">
+				<a  class="nameFooter" href="#home"><i class="material-icons" style="font-size:17px">code</i> with <i class="material-icons" style="font-size:14px">favorite</i> by <strong> Patrick Porto </strong></a>
+			</div>
+		</footer>	
+
 	</section>
 	
-	<footer class="rodape">
-		<div class="social-2">
-			<ul>
-				<li>
-					<a href="https://www.facebook.com/patrick.nporto1" target="_blank" class="btn-fb"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a>
-				</li>
-				<li>
-					<a href="https://twitter.com/tricknp" target="_blank" class="btn-tt"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
-				</li>
-				<li>
-					<a href="https://www.linkedin.com/in/patrick-porto-225897145/" target="_blank" class="btn-linkedin"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
-				</li>
-					<a href="https://plus.google.com/u/1/114964969370812749527" target="_blank" class="btn-google"><i class="fa fa-google-plus-square fa-lg" aria-hidden="true"></i></a>
-				<li>
-					<a href="https://github.com/tricknp" target="_blank" class="btn-github"><i class="fa fa-github-square fa-lg" aria-hidden="true"></i></a>
-				</li>
-				<li>
-					<a href="http://steamcommunity.com/id/tricknp" target="_blank" class="btn-steam"><i class="fa fa-steam-square fa-lg" aria-hidden="true"></i></a>
-				</li>
-			</ul>
-		</div>
-		<div class="textFooter">
-			<a  class="nameFooter" href="#home"><i class="material-icons" style="font-size:17px">code</i> with <i class="material-icons" style="font-size:14px">favorite</i> by <strong> Patrick Porto </strong></a>
-		</div>
-	</footer>	
 	
-	<script type="text/javascript" src="src/_scripts/scrolltop.js"></script>
-	<script type="text/javascript" src="src/_scripts/particles.js"></script>
-	<script type="text/javascript" src="src/_scripts/app.js"></script>
+	<script type="text/javascript" src="src/scripts/scrolltop.js"></script>
+	<script type="text/javascript" src="src/scripts/particles.js"></script>
+	<script type="text/javascript" src="src/scripts/app.js"></script>
 	
 </body>
 </html>
