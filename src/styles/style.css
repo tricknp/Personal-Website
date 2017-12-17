@@ -3,7 +3,7 @@
 body, html{
 	font: 17px Montserrat, sans-serif;
   line-height: 2;
-  color: #FFFFFF;
+  color: #fff;
   letter-spacing: 1px;
   position: relative;
   width: 100%;
@@ -114,7 +114,7 @@ a{
 
 .social-icons {
   position: absolute;
-  top: 28%;
+  top: 30%;
   right: 1%;
 }
 
@@ -148,17 +148,17 @@ a{
 }
 
 .info{
-  position: relative;
-  top: 25%;
+  position: flex;
+  padding-top: 11em;
 }
 
 .name{
-  font-size: 25pt;
+  font-size: 2.9;
   line-height: 0;
 }
 
 .desc{
-  font-size: 14pt;
+  font-size: 1.2;
 }
 /*______________________________________________________________________________________________________________________________________________*/
 
@@ -179,11 +179,11 @@ a{
 }
 
 .sobre h1{
-  font-size: 32px;
+  font-size:2.2em;
 }
 
 .sobre h3{
-  font-size: 15px;
+  font-size: 1em;
 }
 /*______________________________________________________________________________________________________________________________________________*/
 
@@ -241,7 +241,7 @@ a{
 
 /*------------------------*/
 /*         Footer         */
-/*----------ro--------------*/
+/*------------------------*/
 
 .rodape{
   width: 100%;
