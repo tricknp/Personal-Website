@@ -291,3 +291,112 @@ a{
 	transition-duration: .4s;
 }
 
+/* -------------------------> RESPONSIVE AREA <---------------------------- */
+
+@media screen and (max-width: 768px) {
+    .menu{
+      padding: 10px;
+      width: 100%;
+    }
+    
+    .menu li{
+      margin: 0 12px;
+    }
+
+    .right{
+      float: left;
+      width: 100%;
+    }
+    
+    .social-icons {
+      /* position: absolute; */
+      width: 100%;
+      top: 75%;
+      left: -5%;
+    }
+    
+    .social-icons a {
+      font-size: 1.5em;
+  }
+
+  ul{
+    display: inline-block;
+    margin-right: -5%;
+    list-style: none;
+  }
+
+  /* home */
+  .info{
+    padding-top: 8em;
+  }
+
+  .name{
+    font-size: 1.7em;
+  }
+
+  .desc{
+    font-size: .95em;
+  }
+
+  .avatar{
+    width: 130px; 
+    height:130px;
+  }
+
+  /* about */
+  .aboutText{
+    padding-top: 7%;
+  }
+
+  .sobre h1{
+    font-size: 1.5em;
+  }
+
+  .sobre h3{
+    font-size: .86em;
+  }
+
+  /* contact */
+  .contato h1{
+    margin-top: 15%;
+    line-height: 0;
+    font-size: 1.4em;
+  }
+
+  .textContact{
+    padding-top: 15%;
+  }
+
+  .textContact p{
+    font-size: 19px;
+  }
+
+  /* footer */
+  .rodape{
+    width: 100%;
+    position: absolute;
+    bottom: -200%;
+  }
+
+  .social-2{
+    margin: 0%;
+    position: relative;
+    padding: 1.8%;
+    background-color: #27303b;
+    font-size: 23px;
+    letter-spacing: 15px;
+  }
+
+
+  .textFooter{
+    padding: 15px 0;
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+
+  .social-2{
+    margin-left: -5%;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+}
